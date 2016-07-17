@@ -1,0 +1,25 @@
+body {background: #0e0f11; color:#fff; }
+h1 {font-family: 'Galada', cursive; }
+a {text-decoration: none; }
+.navbar-default { background: #f7b617; border:none; padding: 25px 0;}
+.navbar-default .fa { font-size: 35px; color: #fff; }
+.col-md-6 span { font-size: 30px; }
+.col-md-12>img {float: left;}
+.tags>.btn-default{ background: #f7b617; border-color: #f7b620; font-weight: 600; }
+.tags>.btn-default:hover { background: yellow;}
+.tags { margin: 20px 0; }
+.well {background-color: rgba(48, 38, 32, 0.5); color: #fff; text-decoration: none; }
+select { color: black; width: 250px; background: #f7b617; margin-bottom: 20px; padding: 1%;}
+.questo { border: 2px solid gray;}
+.questo:hover, h1:hover {
+	-moz-transition: all 2.3s ease-in-out;
+    -webkit-transition: all 2.3s ease-in-out;
+    -o-transition: all 2.3s ease-in-out;
+    -ms-transition: all 2.3s ease-in-out;
+    transition: all 2.3s ease-in-out;
+    -moz-transform: rotateY(-360deg);
+    -webkit-transform: rotateY(-360deg);
+    o-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+}

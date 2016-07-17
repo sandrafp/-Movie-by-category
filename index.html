@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Catalogo de peliculas</title>
+	  <link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/sweetalert2/4.0.8/sweetalert2.min.css">
+	  <link rel="stylesheet" href="css/main.css"/>
+	</head>
+	<body>
+		<section>
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <h1 class="text-center"><i class="fa fa-ticket" aria-hidden="true"></i> Melon Tíe</h1>
+			  </div>
+			</nav>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<span>escoge una categoria</span>
+						<select name="" id="categorias">
+							<option class="to" value="todos">todos</option>
+						  <option class="te"value="terror">terror</option>
+						  <option class="su"value="suspenso">suspenso</option>
+						  <option class="fam"value="familiar">familiar</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 pelis text-center">
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/suspenso.html" class="suspenso">
+							<img class="suspenso responsive-img"src="img-min/img-1.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/terror.html" class="terror">
+							<img class="terror responsive-img"src="img-min/img-3.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/infantil.html" class="familiar">
+							<img class="familiar responsive-img"src="img-min/minios.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/infantil.html" class="familiar">
+							<img class="familiar responsive-img"src="img-min/valiant-200x200.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/suspenso.html" class="suspenso">
+							<img class="suspenso responsive-img"src="img-min/loffit-cinco-peliculas-para-el-trigesimo-goya-05-200x200.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/accion.html" class="accion">
+							<img class="accion responsive-img"src="img-min/200x200-000000-80-0-0.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/terror.html" class="terror">
+							<img class="terror responsive-img"src="img-min/img-4.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/infantil.html" class="familiar">
+							<img class="familiar responsive-img"src="img-min/minios.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/terror.html" class="accion">
+							<img class="terror responsive-img"src="img-min/img-terror.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/accion.html" class="accion">
+							<img class="accion responsive-img"src="img-min/img-acc.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/infantil.html" class="accion">
+							<img class="familiar responsive-img"src="img-min/rey.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/accion.html" class="accion">
+							<img class="accion responsive-img"src="img-min/ac-2.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/accion.html" class="accion">
+							<img class="accion responsive-img"src="img-min/images (1).jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/suspenso.html" class="accion">
+							<img class="suspenso responsive-img"src="img-min/sus-2.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/suspenso.html" class="accion">
+							<img class="suspenso responsive-img"src="img-min/sus.jpg" height="200" width="150" alt="">
+						</a>
+						<a href="file:///C:/Users/danhoxd/Downloads/Problema/infantil.html" class="accion">
+							<img class="familiar responsive-img"src="img-min/tarza.jpg" height="200" width="150" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 tags">
+						<span>categorias:</span>
+						<button id="cero"class="btn btn-default" type="submit">
+							<i class="fa fa-film" aria-hidden="true"></i>
+							All
+						</button>
+						<button id="uno"class="btn btn-default" type="submit">
+							<i class="fa fa-film" aria-hidden="true"></i>
+							Familiar
+						</button>
+						<button id="dos"class="btn btn-default" type="submit">
+							<i class="fa fa-film" aria-hidden="true"></i>
+							Suspenso
+						</button>
+						<button id="tres"class="btn btn-default" type="submit">
+							<i class="fa fa-film" aria-hidden="true"></i>
+							Terror
+						</button>
+						<button id="cuatro"class="btn btn-default" type="submit">
+							<i class="fa fa-film" aria-hidden="true"></i>
+							Accion
+						</button>
+						<button id="cinco"class="btn btn-default" type="submit">
+							<i class="fa fa-film" aria-hidden="true"></i>
+							ficcion
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/sweetalert2/4.0.8/sweetalert2.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
